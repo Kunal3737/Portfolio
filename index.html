@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <title>Portfolio - Kunal</title>
+</head>
+
+<body>
+    <!-- Header Intro -->
+    <div class="headerWrapper">
+        <div class="headerDivider">
+            <div class="introHeader">
+                <h1 class="intro">Hi, </br>I'm Kunal, </br>web developer.</h1>
+            </div>
+        </div>
+        <div class="headerDivider">
+            <img id="boyHeader" src="/images/Boy_Image.png" alt="Boy Image" />
+        </div>
+    </div>
+
+    <!-- Skills -->
+    <div class="skillsWrapper">
+        <img src="/images/react-icon.png" alt="react-icon" class="skillsIcons" id="icon-1" />
+        <img src="/images/javascript-icon.png" alt="javascript-icon" class="skillsIcons" id="icon-2" />
+        <div></div>
+        <img src="/images/html-icon.png" alt="html-icon" class="skillsIcons" id="icon-3" />
+        <div></div>
+        <img src="/images/css-icon.png" alt="css-icon" class="skillsIcons" id="icon-4" />
+        <div></div>
+    </div>
+    <div class="whiteLine"></div>
+
+    <!-- Projects -->
+    <div class="projectsWrapper">
+        <div>
+            <img src="/images/pro-organizer-app-img.jpg" alt="Pro Organizer App" class="project_img" id="img1"
+                onclick="mouseOverImg1(this)"/>
+        </div>
+        <div class="project_img" id="img1Hover">
+            <div class="projectOnHover">
+                <p><u>Pro Organizer App</u></p>
+                <button id="project1Button1" class="project1Button">Live</button>
+                <button onclick="window.location.href = 'https://github.com/Kunal3737/pro-organiser-application';" class="project1Button">GitHub</button>
+            </div>
+        </div>
+        <div>
+            <img src="/images/financial-portfolio-tracker-img.png" alt="Financial Portfolio Tracker"
+                class="project_img white_background" id="img2" onclick="mouseOverImg2(this)"
+                />
+        </div>
+        <div class="project_img" id="img2Hover">
+            <div class="projectOnHover">
+                <p><u>Financial Portfolio Tracker</u></p>
+                <button onclick="window.location.href = 'https://kunal3737.github.io/financial-portfolio-tracker-app/';" id="project1Button1" class="project1Button">Live</button>
+                <button onclick="window.location.href = 'https://github.com/Kunal3737/financial-portfolio-tracker-app';" class="project1Button">GitHub</button> 
+            </div>
+        </div>
+        <div>
+            <img src="/images/weather-img.png" alt="Weather Application" class="project_img" id="img3"
+            onclick="mouseOverImg3(this)"/>
+            <!-- onmouseout="mouseOutImg3(this)" -->
+        </div>
+        <div class="project_img" id="img3Hover">
+            <div class="projectOnHover">
+                <p><u>Weather Application</u></p>
+                <button id="project1Button1" class="project1Button">Live</button>
+                <button onclick="window.location.href = 'https://github.com/Kunal3737/weather-application';" class="project1Button">GitHub</button>
+            </div>
+        </div>
+        <div>
+            <img src="/images/to-do-img.png" alt="To-Do Application" class="project_img white_background" id="img4"
+            onclick="mouseOverImg4(this)"/>
+        </div>
+        <div class="project_img" id="img4Hover">
+            <div class="projectOnHover">
+                <p><u>To-Do Application</u></p>
+                <button id="project1Button1" class="project1Button">Live</button>
+                <button onclick="window.location.href = 'https://github.com/Kunal3737/to-do-application';" class="project1Button">GitHub</button>
+            </div>
+        </div>
+        <div>
+            <img src="/images/ark-studio-img.png" alt="ARK Studio" class="project_img" id="img5"
+            onclick="mouseOverImg5(this)" />
+        </div>
+        <div class="project_img" id="img5Hover">
+            <div class="projectOnHover">
+                <p><u>ARK Studio</u></p>
+                <button onclick="window.location.href = 'https://kunal3737.github.io/ark-studio/';" id="project1Button1" class="project1Button">Live</button>
+                <button onclick="window.location.href = 'https://github.com/Kunal3737/ark-studio';" class="project1Button">GitHub</button>
+            </div>
+        </div>
+        <div>
+            <img src="/images/news-img.png" alt="News Aggregator App" class="project_img white_background" id="img6"
+            onclick="mouseOverImg6(this)"/>
+        </div>
+        <div class="project_img" id="img6Hover">
+            <div class="projectOnHover">
+                <p><u>News Aggregator App</u></p>
+                <button onclick="window.location.href = 'https://kunal3737.github.io/news-aggregator-app/';" id="project1Button1" class="project1Button">Live</button>
+                <button onclick="window.location.href = 'https://github.com/Kunal3737/news-aggregator-app';" class="project1Button">GitHub</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- About -->
+    <div class="aboutWrapper">
+        <div class="aboutMeHeader">
+            <h1><u>About Me</u></h1>
+        </div>
+    </div>
+    <div class="forBck">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae impedit facere laborum facilis
+            laudantium quaerat ducimus labore iusto. Iure iste voluptas iusto ad repudiandae officia atque unde
+            exercitationem sequi! Officiis dolores deserunt modi labore libero alias delectus ratione voluptatum
+            quisquam atque beatae nostrum, autem dignissimos doloremque nihil soluta! Sit, quas vitae harum aperiam
+            doloribus in esse, ipsum quia, unde rerum eligendi nam molestiae minima ab id at quidem fugiat libero
+            perferendis quaerat beatae debitis? Repudiandae maxime itaque magnam ut molestias, facilis corporis nemo
+            repellat quia quisquam recusandae dolor quasi quas accusantium quod eveniet ab similique ducimus voluptas,
+            doloribus dolore aliquam.</p>
+    </div>
+    <div class="contactWrapper">
+        <hr />
+        <div class="contactHeader">
+            <h1><u>Get in touch</u></h1>
+        </div>
+    </div>
+    <div class="contactFormWrapper">
+        <form id="myForm" onsubmit="contactFormHandler()">
+            <label>
+                Name<code>*</code>
+            </label><br>
+            <input type="text" id="name" placeholder="Enter your name" required /><br><br>
+            <label>
+                Email<code>*</code>
+            </label><br>
+            <input type="email" id="email" placeholder="Enter your Email Address" required /><br><br>
+            <label>
+                Message
+            </label><br>
+            <textarea type="text"  id="message">
+
+            </textarea><br><br>
+            <input type="submit" value="Send" class="sendButton">
+        </form>
+    </div>
+
+    <script src="/scripts/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
