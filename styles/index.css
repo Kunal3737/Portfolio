@@ -38,7 +38,7 @@
 }
 
 .skillsIcons {
-    height: 100px;
+    height: 80px;
 }
 
 .skillsWrapper {
@@ -51,19 +51,19 @@
 }
 
 #icon-1 {
-    margin-left: 15%;
+    margin-left: 13%;
 }
 
 #icon-2 {
-    margin-left: 10%;
+    margin-left: 13%;
 }
 
 #icon-3 {
-    margin-left: 10%;
+    margin-left: 15%;
 }
 
 #icon-4 {
-    margin-left: 15%;
+    margin-left: 16%;
 }
 
 .whiteLine {
